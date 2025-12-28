@@ -1,5 +1,6 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
-
+(add-to-list 'initial-frame-alist '(width . 120))
+(add-to-list 'initial-frame-alist '(height . 45))
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
@@ -10,7 +11,7 @@
 (setq user-full-name "Myoungjin Oh"
        user-mail-address "omjin7g@gmail.com")
 (load! "modules/appearance.el")      ; 테마, 폰트, 대시보드
-(load! "modules/email.el")   ; 이메일 (mu4e)
+;; (load! "modules/email.el")   ; 이메일 (mu4e)
 (load! "modules/org-sync.el") ; git
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
